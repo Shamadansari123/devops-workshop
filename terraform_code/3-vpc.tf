@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "ec2_1" {
-  ami =         "ami-03a6eaae9938c858c"
+  ami =         "ami-053b0d53c279acc90"
   instance_type = "t2.micro"
   key_name = "new1"
   //security_groups = ["my-sg"]
